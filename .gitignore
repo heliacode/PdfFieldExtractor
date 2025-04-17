@@ -1,0 +1,36 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+
+# ASP.NET hosting
+*.db
+*.db-shm
+*.db-wal
+
+# Rider / VS / VS Code stuff
+.vscode/
+.idea/
+*.swp
+
+# User-specific files
+*.csproj.user
+*.sln.docstates
+
+# Logs
+*.log
+
+# Docker
+Dockerfile
+.dockerignore
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Test Results
+TestResults/
+
+# Publish outputs
+/out/

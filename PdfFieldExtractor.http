@@ -1,0 +1,6 @@
+@PdfFieldExtractor_HostAddress = http://localhost:5291
+
+GET {{PdfFieldExtractor_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
