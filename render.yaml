@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: pdf-field-extractor
+    env: docker
+    repo: https://github.com/mattd1980/PdfFieldExtractor
+    branch: main
+    plan: free
+    envVars:
+      - key: OpenAI__ApiKey
+        sync: false
